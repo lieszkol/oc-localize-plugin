@@ -15,7 +15,7 @@ class LanguageList extends \RainLab\Builder\Widgets\LanguageList
         ];
 
 
-        $this->addJs( url('plugins/studioazura/localize/assets/js/select-file.js') );
+        $this->addJs( url('$/studioazura/localize/assets/js/select-file.js') );
     }
 
     protected function getLanguageList($pluginCode)
